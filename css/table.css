@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Outfit';
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+.my-table-style{
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: #1e1e47;
+    color: white;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+.transfer-money-style{
+	justify-content: center;
+    text-align: center;
+    font-size: 47px;
+    color: white;
+}
+.btn{
+	background-color: white;
+    color: #1e1e47;
+}
+thead th{
+	border-bottom-width: 2px;
+    font-size: 23px;
+}
+th{
+	text-decoration: underline;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
